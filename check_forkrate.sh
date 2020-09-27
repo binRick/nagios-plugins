@@ -70,7 +70,7 @@ if [[ ! -f $DATAFILE ]]; then
 fi
 
 # now compare this to previous
-mv $DATAFILE{,.previous}
+mv -f $DATAFILE{,.previous}
 while read ts process_count; do
   if [[ $ts -lt $min_valid_ts ]]; then
     continue
