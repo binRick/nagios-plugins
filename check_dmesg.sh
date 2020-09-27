@@ -38,5 +38,5 @@ if [[ ! -z "$output" ]]; then
   fi
 fi
 
-echo "OK - The dmesg command output doesn't seem contain error."
+echo "OK- The kernel ring buffer doesn't contain any errors."
 exit 0
