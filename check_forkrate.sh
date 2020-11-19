@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#
+#  test1
 # Check forkrate
 #
 # Usage: check_forkrate.sh [-w warning] [-c critical] [-i interval]
